@@ -1,7 +1,7 @@
-package problems
+package easy
 
 import (
-	"leetcode/solutions"
+	"leetcode/solutions/easy"
 )
 
 /*
@@ -29,7 +29,7 @@ Explanation: The last word is "joyboy" with length 6.
 */
 func Problem58() int {
 	s := "luffy is still joyboy"
-	solution := solutions.SolutionOfProblem58(s)
+	solution := easy.SolutionOfProblem58(s)
 
 	return solution
 }

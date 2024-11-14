@@ -1,11 +1,10 @@
 package main
 
-import (
-	"fmt"
-	"leetcode/problems"
-)
+import "leetcode/problems/easy"
 
 func main() {
-	lenghtOfLastWord := problems.Problem58()
-	fmt.Println(lenghtOfLastWord)
+	//lenghtOfLastWord := easy.Problem58()
+	//fmt.Println(lenghtOfLastWord)
+
+	easy.GetColumnTitle()
 }
